@@ -10,7 +10,8 @@
       </div>
        <div class="mb-3 bg-light rounded">
           <h4 class="font-italic ml-3 mt-18">Other Else</h4>
-          <p class="px-3 pb-3"><a href="https://twitter.com/web_command" target="_blank">ツイッター</a><br>
+          <p class="px-3 pb-3">
+            <a href="https://twitter.com/web_command" target="_blank">ツイッター</a><br>
             <a href="https://github.com/web-commander" target="_blank">github</a>
             </p>
       </div>
@@ -28,6 +29,13 @@
           2019/03 コメント追加可能に(予定)<br>
           2019/04 グローバルナビ・フッター追加(予定)<br>
           2019/05 ソーシャルボタン追加(予定)
+          </p>
+      </div>
+      <div class="mb-3 bg-light rounded">
+          <h4 class="font-italic ml-3 mt-18">Tools</h4>
+          <p class="px-3 pb-3">
+          <a href="https://one-ap-engineer.com/tools/json-formatter" target="_blank">JSON formatter</a><br>
+          <a href="https://one-ap-engineer.com/tools/xml-formatter" target="_blank">XML formatter</a>
           </p>
       </div>
     </div><!-- /.blog-sidebar -->
