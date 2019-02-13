@@ -22,13 +22,13 @@
   </head>
   <body>
     <header class="blog-header py-3">
-      <div class="row flex-nowrap justify-content-between align-items-center">
-        <div class="col-4 pt-1">
+      <div class="row align-items-center">
+        <div class="col-md-4">
         </div>
-        <div class="col-4 text-center">
+        <div class="col-md-4 text-center">
           <a class="blog-header-logo text-dark" href="<?php echo home_url() ?>"><img src="<?php echo get_template_directory_uri(); ?>/static/img/arrow.png" /> <?php bloginfo( 'name' ); ?></a>
         </div>
-        <div class="col-4 d-flex justify-content-end align-items-center">
+        <div class="col-md-4">
         </div>
       </div>
     </header>
