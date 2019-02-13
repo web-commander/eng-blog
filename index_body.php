@@ -5,7 +5,7 @@
           	while( have_posts() ):
               the_post();
         ?>
-              <article id="post-<?php the_ID(); ?>">
+              <article id="post-<?php the_ID(); ?>" class="py-2">
               <header class="entry-header">
                 <?php the_title( '<h3 class="entry-title">','</h3>' ); ?>
               </header>
