@@ -2,7 +2,7 @@ $(function () {
     $('#json-format').click(function() {
         var text = $( '#input_json' ).val();
         var jsonBefore = JSON.parse(text);
-        var json = JSON.stringify(jsonBefore, null, "    ")
+        var json = JSON.stringify(jsonBefore, null, 4)
         $( '#input_json' ).val(json);
     });
     $('#json-trim').click(function(){
