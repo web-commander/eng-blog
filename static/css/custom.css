@@ -114,14 +114,17 @@ h1, h2, h3, h4, h5, h6 {
 */
 .blog-main h1{
   font-size: 2.5rem;
+  margin-bottom: 1.25rem;
   border-bottom: solid 2px black;
 }
 .blog-main h2 {
   font-size: 2.0rem;
+  margin-bottom: 1.25rem;
   border-bottom: dashed 1.5px black;
 }
 .blog-main h3{
   font-size: 1.75rem;
+  margin-bottom: 1.25rem;
   padding: 0.25em 0.5em;/*上下 左右の余白*/
   color: #494949;/*文字色*/
   background: transparent;/*背景透明に*/
@@ -129,14 +132,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 .blog-main h4{
   font-size: 1.5rem;
+  margin-bottom: 1.25rem;
   border-bottom: solid 1px black;
 }
 .blog-main h5{
   font-size: 1.25rem;
+  margin-bottom: 1.25rem;
   border-bottom: solid 1px black;
 }
 .blog-main h6{
   font-size: 1rem;
+  margin-bottom: 1.25rem;
   border-bottom: solid 1px black;
 }
 
