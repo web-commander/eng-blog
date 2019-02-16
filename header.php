@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="description" content="ページの内容を表す文章">
-    <title>とあるEngineerBlog</title>
+    <title><?php bloginfo( 'name' ); ?></title>
     <!-- favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="<?php echo get_template_directory_uri(); ?>/favicon.ico">
     <!-- CSS -->
