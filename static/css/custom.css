@@ -115,12 +115,11 @@ h1, h2, h3, h4, h5, h6 {
 .blog-main h1{
   font-size: 2.5rem;
   margin-bottom: 1.25rem;
-  border-bottom: solid 2px black;
 }
 .blog-main h2 {
   font-size: 2.0rem;
   margin-bottom: 1.25rem;
-  border-bottom: dashed 1.5px black;
+  border-bottom: solid 1.5px black;
 }
 .blog-main h3{
   font-size: 1.75rem;
