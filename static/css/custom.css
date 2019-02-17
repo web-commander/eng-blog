@@ -125,10 +125,10 @@ h1, h2, h3, h4, h5, h6 {
 .blog-main h3{
   font-size: 1.75rem;
   margin-bottom: 1.25rem;
-  padding: 0.25em 0.5em;/*上下 左右の余白*/
-  color: #494949;/*文字色*/
-  background: transparent;/*背景透明に*/
-  border-left: solid 5px black;/*左線*/
+  padding: 0.25em 0.5em;
+  color: #494949;
+  background: transparent;
+  border-left: solid 5px black;
 }
 .blog-main h4{
   font-size: 1.5rem;
@@ -146,7 +146,7 @@ h1, h2, h3, h4, h5, h6 {
   border-bottom: solid 1px black;
 }
 /*
- * パンくずリスト
+ * breadcrumbs-list
  */
 .breadcrumbs{
     font-size: 1rem;
@@ -178,6 +178,104 @@ h1, h2, h3, h4, h5, h6 {
   border-right-color: transparent;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
+}
+
+/*
+ * text-box
+ */
+ /* title on frame */
+ .box1 {
+    position: relative;
+    margin: 2em 0;
+    padding: 0.5em 1em;
+    border: solid 3px #95ccff;
+    border-radius: 8px;
+}
+.box1 .box-title {
+    position: absolute;
+    display: inline-block;
+    top: -13px;
+    left: 10px;
+    padding: 0 9px;
+    line-height: 1;
+    font-size: 19px;
+    background: #FFF;
+    color: #95ccff;
+    font-weight: bold;
+}
+.box1 p {
+    margin: 0; 
+    padding: 0;
+}
+ /* title out of frame */
+ .box2 {
+    position: relative;
+    margin: 2em 0;
+    padding: 0.5em 1em;
+    border: solid 3px #62c1ce;
+}
+.box2 .box-title {
+    position: absolute;
+    display: inline-block;
+    top: -27px;
+    left: -3px;
+    padding: 0 9px;
+    height: 25px;
+    line-height: 25px;
+    vertical-align: middle;
+    font-size: 17px;
+    background: #62c1ce;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 5px 5px 0 0;
+}
+.box2 p {
+    margin: 0; 
+    padding: 0;
+}
+ /* title in frame */
+ .box3 {
+    position: relative;
+    margin: 2em 0;
+    padding: 25px 10px 7px;
+    border: solid 2px #FFC107;
+}
+.box3 .box-title {
+    position: absolute;
+    display: inline-block;
+    top: -2px;
+    left: -2px;
+    padding: 0 9px;
+    height: 25px;
+    line-height: 25px;
+    vertical-align: middle;
+    font-size: 17px;
+    background: #FFC107;
+    color: #ffffff;
+    font-weight: bold;
+}
+.box3 p {
+    margin: 0; 
+    padding: 0;
+}
+ /* centerd titme in frame */
+ .box4 {
+    margin: 2em 0;
+    background: #f1f1f1;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.22);
+}
+.box4 .box-title {
+    font-size: 1.2em;
+    background: #5fc2f5;
+    padding: 4px;
+    text-align: center;
+    color: #FFF;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+}
+.box4 p {
+    padding: 15px 20px;
+    margin: 0;
 }
 
 /*
