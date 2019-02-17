@@ -187,7 +187,7 @@ h1, h2, h3, h4, h5, h6 {
     position: relative;
     margin: 2em 0;
     padding: 0.5em 1em;
-    border: solid 3px #95ccff;
+    border: solid 3px #62c1ce;
     border-radius: 8px;
 }
 .box1 .box-title {
@@ -199,7 +199,7 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1;
     font-size: 19px;
     background: #FFF;
-    color: #95ccff;
+    color: #62c1ce;
     font-weight: bold;
 }
 .box1 p {
