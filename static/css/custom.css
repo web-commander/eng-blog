@@ -187,7 +187,7 @@ h1, h2, h3, h4, h5, h6 {
     position: relative;
     margin: 2em 0;
     padding: 0.5em 1em;
-    border: solid 3px #62c1ce;
+    border: solid 3px #008080;
     border-radius: 8px;
 }
 .box1 .box-title {
@@ -199,12 +199,12 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1;
     font-size: 19px;
     background: #FFF;
-    color: #62c1ce;
+    color: #008080;
     font-weight: bold;
 }
 .box1 p {
     margin: 0; 
-    padding: 0;
+    padding: 10px;
 }
  /* title out of frame */
  .box2 {
@@ -230,7 +230,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .box2 p {
     margin: 0; 
-    padding: 0;
+    padding: 10px;
 }
  /* title in frame */
  .box3 {
@@ -255,7 +255,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .box3 p {
     margin: 0; 
-    padding: 0;
+    padding: 10px;
 }
  /* centerd titme in frame */
  .box4 {
@@ -274,7 +274,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .box4 p {
     padding: 15px 20px;
-    margin: 0;
+    margin: 10px;
 }
 
 /*
