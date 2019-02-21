@@ -4,6 +4,7 @@
   <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
   <div class="breadcrumbs">
   <?php
+    // パンくずリスト取得
     $categories = get_the_category();
     $separator = ' ＞ ';
     $output = '<a href="' .home_url() .'">' .'HOME' .'</a>';
@@ -14,7 +15,6 @@
 	    		. '">' . $category->cat_name . '</a>' ;
     	}
     $output .=  $separator;
-    //echo trim( $output, ' ');
     echo $output;
     }
   ?> <?php the_title(); ?>
