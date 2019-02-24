@@ -5,6 +5,6 @@
    ?>
   </body>
   <footer class="blog-footer">
-    <p>© 2019  <a href="">とあるEngineerBlog</a></p>
+    <p>© 2019  <a href="">とあるEngineer</a></p>
   </footer>
 </html>
