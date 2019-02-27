@@ -1,10 +1,5 @@
 <?php get_header(); ?>
 
-<?php
-	$categories = get_the_category();
-		$tags = get_the_tags();
-	?>
-
 <div class="col-md-8 blog-main">
   <?php the_archive_title('','の記事');?>
 	<?php if(have_posts()):?>
