@@ -36,7 +36,7 @@
      'comment_notes_after' => '<p class="comments-form-allowed-tags">内容に問題なければ、下記の「コメントを送信する」ボタンを押してください。</p>',
      'comment_field' => '<p class="comment-form-comment"><label for="comment">' . _x( 'Comment', 'noun' ) . '</label><br><textarea id="comment" name="comment" class="form-control" placeholder="とてもよいブログですねえ" rows="8" required="required"></textarea></p>',
      'label_submit' => 'コメントを送信する',
-     'class_submit' => 'submit btn btn-default',
+     'class_submit' => 'submit btn btn-primary',
      'submit_button' => '<button id="%2$s" class="%3$s">%4$s</button>',
    );
    comment_form($comments_args);
