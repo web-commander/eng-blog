@@ -22,6 +22,7 @@
     ?>
   </head>
   <body>
+    <!-- header -->
     <header class="blog-header py-3">
       <div class="row align-items-center">
         <div class="col-md-4">
@@ -33,6 +34,22 @@
         </div>
       </div>
     </header>
+    <!-- header-menu -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light rounded">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#header-menu-contents" aria-controls="header-menu-contents" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="header-menu-contents">
+       <div class="container">
+        <?php wp_nav_menu( array(
+                'theme_location'=>'header-menu', 
+                'container'     =>'', 
+                'menu_class'    =>'header-menu',
+                'items_wrap'    =>'<ul class="navbar-nav">%3$s</ul>'));
+        ?>
+		  </div>
+      </div>
+    </nav>
     <div class="container">
       <main role="main" class="container">
         <div class="row">

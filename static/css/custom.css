@@ -14,6 +14,44 @@
   text-decoration: none;
 }
 
+nav {
+	border-bottom: 1px solid #e5e5e5;
+   text-align: center;
+}
+
+nav ul{
+  display: table;
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+}
+nav ul li{
+  display: table-cell;
+  width: 20%;
+  position: relative;
+}
+nav ul li:not(:first-child):after{
+  position: absolute;
+  content: ‘/’;
+  top: 30%;
+  left: 0;
+}
+nav ul li a{
+  display: block;
+  width: 100%;
+  padding: 10px 0;
+  text-decoration: none;
+  color: #158b2b;
+  font-weight: bold;
+}
+nav ul li.current a{
+  color: #A77B1C;
+}
+nav ul li a:hover{
+  color: #C55859;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: "Playfair Display", Georgia, "Times New Roman", serif;
 }
