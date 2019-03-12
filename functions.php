@@ -47,7 +47,6 @@ class My_Widget extends WP_Widget {
  *
  */
 function arphabet_widgets_init() {
-
 	register_sidebar( array(
 		'name' => 'サイドバー',
 		'id' => 'sidebar-1',
@@ -58,4 +57,23 @@ function arphabet_widgets_init() {
 	) );
 }
 add_action( 'widgets_init', 'arphabet_widgets_init' );
+?>
+<?php
+/**
+ * Register our header and footer menus.
+ *
+ */
+ add_action( 'widgets_init', 'arphabet_widgets_init' );
+function register_my_menus() {
+	register_nav_menus(
+		array(
+			'header-menu' => __( 'ヘッダーメニュー' ),
+			'footer-menu-left' => __( 'フッターメニュー左' ),
+			'footer-menu-center' => __( 'フッターメニュー中央' ),
+			'footer-menu-right' => __( 'フッターメニュー右' ),
+		)
+	);
+}
+
+add_action( 'init', 'register_my_menus' );
 ?>
