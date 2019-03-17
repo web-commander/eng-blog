@@ -12,7 +12,7 @@
         ３つの料金プランから選択・サイトイメージのすり合わせだけで１ヶ月後にはサイトを公開できます。</p>
       </div>
       <div class="my-2 mb-5">
-        <a class="oe-button-teal expand-link py-4" href="./index.html">料金プランをみる</a>
+        <a class="oe-button-teal expand-link py-4" href="https://one-ap-engineer.com#charge-plan">料金プランをみる</a>
       </div>
     </div>
     <div class="col-md-2"></div>
@@ -186,7 +186,7 @@
       </div>
     </div>
     <div class="container top-image-area top05">
-<div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+<div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center" id="charge-plan">
           <div class="top-item-catch-black">
             <p>選べる３プラン</p>
           </div>
