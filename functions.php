@@ -50,7 +50,7 @@ function arphabet_widgets_init() {
 	register_sidebar( array(
 		'name' => 'サイドバー',
 		'id' => 'sidebar-1',
-		'before_widget' => '<div class="my-2 py-1 mx-2  bg-light rounded">',
+		'before_widget' => '<div class="my-2 py-1 px-2  bg-light rounded">',
 		'after_widget' => '</div>',
 		'before_title' => '<h4 class="font-italic mt-1">',
 		'after_title' => '</h4>',
