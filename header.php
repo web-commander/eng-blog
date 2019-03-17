@@ -17,6 +17,7 @@
   </head>
   <body>
     <!-- header -->
+    <!--  
     <header class="blog-header py-3">
       <div class="row align-items-center">
         <div class="col-md-4">
@@ -29,7 +30,7 @@
       </div>
     </header>
     <!-- header-menu -->
-    <!--  <nav class="navbar navbar-expand-lg navbar-light rounded">
+      <nav class="navbar navbar-expand-lg navbar-light rounded">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#header-menu-contents" aria-controls="header-menu-contents" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>

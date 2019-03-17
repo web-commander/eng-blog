@@ -347,3 +347,153 @@ h1, h2, h3, h4, h5, h6 {
   margin: auto;
 
 }
+
+/*
+* home css
+*/
+ /**
+  * Original CSS
+  */
+.oe-header-area{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  width: 88.28125%;
+  max-width: 1130px;
+  height: 100%; 
+}
+
+.navbar {
+  margin-bottom: 0px;
+}
+.navbar-brand {
+  background: url("./../img/corpo-image.png") no-repeat left center;
+  background-size: contain;
+  height: 50px;
+  width: 250px;
+}
+.top-image-area {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 445px;
+}
+.top-footer-area {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 445px;
+}
+.top01 {
+  background: url("./../img/top01.jpg") no-repeat left center;
+  background-size: cover
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.top02{
+  background: #696969;
+}
+.top02-left {
+}
+.top03{
+  background: #ffffffff;
+}
+.top04{
+  background: #008080;
+}
+.top05{
+  background: #ffffffff;
+}
+.top06{
+  background: url("./../img/meeting.jpg") no-repeat center center;
+  background-size: cover
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.top07{
+  background: #000000;
+}
+
+.top-item-catch-black {
+  color: #000000;
+  font-size: 40px;
+  text-shadow: 0px 0px 0px #888888;
+}
+.top-item-description {
+}
+.top-item-catch-white {
+  color: #ffffff;
+  font-size: 40px;
+  text-shadow: 0px 0px 0px #888888;
+}
+.top-item-description-white {
+  color: #ffffff;
+  font-size: 16px;
+}
+.oe-button-teal {
+    color:#ffffff;
+    background: #008080;
+    padding: 20px 20px;
+    padding: 0 60px;
+    height: 70px;
+    line-height: 70px;
+    font-size: 24px;
+    border-radius: 70px;
+    margin: 40px 0 20px 0;
+}
+.oe-button-black {
+    color:#ffffff;
+    background: #000000;
+    padding: 20px 20px;
+    padding: 0 60px;
+    height: 70px;
+    line-height: 70px;
+    font-size: 24px;
+    border-radius: 70px;
+    margin: 40px 0 20px 0;
+}
+a.expand-link{
+  color:#ffffff;
+  text-decoration:none;
+}
+a.expand-link:hover{
+  animation: big 0.1s;
+  animation-fill-mode: forwards;
+}
+@keyframes big 
+{
+  0% {transform: scale(1); }
+  100% {transform: scale(1.1);}
+}
+a.expand-link:active
+{
+  animation: small 0.1s;
+  animation-fill-mode: forwards;
+}
+@keyframes small 
+{
+  100% {transform: scale(0.9);}
+}
+p.icon-check-box-white{
+  padding-left:30px;
+  background: url("./../img/icon-checkbox.svg") no-repeat left center;
+}
+p.icon-file-white{
+  padding-left:30px;
+  background: url("./../img/icon-file.svg") no-repeat left center;
+}
