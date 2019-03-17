@@ -170,21 +170,21 @@ p.icon-file-white{
       </button>
       <div class="collapse navbar-collapse" id="folding-target">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item"><a class="nav-link mr-3" href="">HOME</a></li>
+          <li class="nav-item"><a class="nav-link mr-3" href="https://one-ap-engineer.com/">HOME</a></li>
           <li class="nav-item dropdown mr-1">
-            <a class="nav-link dropdown-toggle" href="#" id="dropdown-service" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">SERVICE</a>
+            <a class="nav-link dropdown-toggle" href="" id="dropdown-service" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">SERVICE</a>
             <div class="dropdown-menu" aria-labelledby="dropdown-service">
-              <a class="dropdown-item" href="#">Webサイト制作・相談</a>
-              <a class="dropdown-item" href="#">WPテーマ制作</a>
-              <a class="dropdown-item" href="#">Engineer向けブログ</a>
+              <a class="dropdown-item" href="https://one-ap-engineer.com/web-work-consul">Webサイト制作・相談</a>
+              <a class="dropdown-item" href="https://one-ap-engineer.com/theme-work">WPテーマ制作</a>
+              <a class="dropdown-item" href="https://one-ap-engineer.com/blog">Engineer向けブログ</a>
             </div>
           </li>
-          <li class="nav-item mr-1"><a class="nav-link" href="<?php echo get_template_directory_uri(); ?>">ABOUT ME</a></li>
-          <li class="nav-item mr-1"><a class="nav-link mr-2" href="<?php echo get_template_directory_uri(); ?>/blog">BLOG</a></li>
-          <li class="nav-item mr-1"><a class="nav-link mr-2" href="<?php echo get_template_directory_uri(); ?>/news">NEWS</a></li>
-          <li class="nav-item mr-1"><a class="nav-link" href="<?php echo get_template_directory_uri(); ?>/contact">CONTACT</a></li>
+          <li class="nav-item mr-1"><a class="nav-link" href="https://one-ap-engineer.com/about-me">ABOUT ME</a></li>
+          <li class="nav-item mr-1"><a class="nav-link mr-2" href="https://one-ap-engineer.com/blog">BLOG</a></li>
+          <li class="nav-item mr-1"><a class="nav-link mr-2" href="https://one-ap-engineer.com/news">NEWS</a></li>
+          <li class="nav-item mr-1"><a class="nav-link" href="https://one-ap-engineer.com/contact">CONTACT</a></li>
         </ul>
-        <form role="search" method="get" id="searchform" action="<?php echo get_template_directory_uri(); ?>" class="searchform form-inline my-3 my-md-0">
+        <form role="search" method="get" id="searchform" action="https://one-ap-engineer.com" class="searchform form-inline my-3 my-md-0">
           <input type="search" id="search-form-1" class="form-control" placeholder="Search" aria-label="Search" value="" name="s" />
         </form>
       </div>
@@ -398,7 +398,7 @@ p.icon-file-white{
           <li>複数サイトで利用OK</li>
           <li>２次利用不可</li>
         </ul>
-        <button type="button" class="btn btn-lg btn-block btn-primary" onclick="location.href='<?php echo get_template_directory_uri(); ?>/plan-theme-only'">プラン詳細へ</button>
+        <button type="button" class="btn btn-lg btn-block btn-primary" onclick="location.href='https://one-ap-engineer.com/plan-theme-only'">プラン詳細へ</button>
       </div>
     </div>
     <div class="card mb-4 shadow-sm">
@@ -414,7 +414,7 @@ p.icon-file-white{
           <li>https化・Basic認証設定も代行</li>
           <li>サーバ・ドメイン保守契約可能に</li>
         </ul>
-        <button type="button" class="btn btn-lg btn-block btn-outline-primary" onclick="location.href='<?php echo get_template_directory_uri(); ?>/plan-package'">プラン詳細へ</button>
+        <button type="button" class="btn btn-lg btn-block btn-outline-primary" onclick="location.href='https://one-ap-engineer.com/plan-package'">プラン詳細へ</button>
       </div>
     </div>
     <div class="card mb-4 shadow-sm">
@@ -430,7 +430,7 @@ p.icon-file-white{
           <li>https化・Basic認証設定も代行</li>
           <li>サーバ・ドメイン保守契約可能に</li>
         </ul>
-        <button type="button" class="btn btn-lg btn-block btn-primary" onclick="location.href='<?php echo get_template_directory_uri(); ?>/plan-full-order-made'">プラン詳細へ</button>
+        <button type="button" class="btn btn-lg btn-block btn-primary" onclick="location.href='https://one-ap-engineer.com/plan-full-order-made'">プラン詳細へ</button>
       </div>
     </div>
   </div>
@@ -445,7 +445,7 @@ p.icon-file-white{
             <p class="">不明点や制作依頼があれば<br>お気軽におたずねください</p>
           </div>
           <div class="pt-3">
-            <a class="oe-button-black expand-link py-4" href="<?php echo get_template_directory_uri(); ?>/contact">OneEngineerに連絡する</a>
+            <a class="oe-button-black expand-link py-4" href="https://one-ap-engineer.com/contact">OneEngineerに連絡する</a>
           </div>
         </div>
       </div>
@@ -463,16 +463,16 @@ p.icon-file-white{
           <div class="col-md-4">
             <h3>MORE INFO</h3>
             <div class="my-4">
-              <p class="icon-file-white"><a href="<?php echo get_template_directory_uri(); ?>/about-me" class="text-light">サイト管理者について</a></p>
-              <p class="icon-file-white"><a href="<?php echo get_template_directory_uri(); ?>/terms-of-service" class="text-light">利用規約</a></p>
-              <p class="icon-file-white"><a href="<?php echo get_template_directory_uri(); ?>/about-personal-info" class="text-light">個人情報の取り扱いについて</a></p>
-              <p class="icon-file-white"><a href="<?php echo get_template_directory_uri(); ?>/law" class="text-light">特定商取引法にもとづく表記</a></p>
-              <p class="icon-file-white"><a href="<?php echo get_template_directory_uri(); ?>/contact" class="text-light">お問い合わせ</a></p>
+              <p class="icon-file-white"><a href="https://one-ap-engineer.com/about-me" class="text-light">サイト管理者について</a></p>
+              <p class="icon-file-white"><a href="https://one-ap-engineer.com/terms-of-service" class="text-light">利用規約</a></p>
+              <p class="icon-file-white"><a href="https://one-ap-engineer.com/about-personal-info" class="text-light">個人情報の取り扱いについて</a></p>
+              <p class="icon-file-white"><a href="https://one-ap-engineer.com/law" class="text-light">特定商取引法にもとづく表記</a></p>
+              <p class="icon-file-white"><a href="https://one-ap-engineer.com/contact" class="text-light">お問い合わせ</a></p>
             </div>
           </div>
           <div class="col-md-4">
             <h3>TWEET</h3>
-            <a class="twitter-timeline" href="https://twitter.com/web_command?ref_src=twsrc%5Etfw">Tweets by web_command</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <a class="twitter-timeline" data-width="300" data-height="300" href="https://twitter.com/web_command?ref_src=twsrc%5Etfw">Tweets by web_command</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
           </div>
         </div>
         <div class="row my-2 top-item-description-white">
