@@ -1,43 +1,5 @@
    <?php wp_footer(); 
    ?>
-   <!-- 
-  <footer class="blog-footer">
-    <div class="footer-menu">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4 text-left">
-            <h4>左メニュー</h4>
-            <?php wp_nav_menu( array(
-                      'theme_location'=>'footer-menu-left', 
-                      'container'     =>'', 
-                      'menu_class'    =>'footer-menu-left',
-                      'items_wrap'    =>'<ul class="footer-menu footer-left">%3$s</ul>'));
-              ?>
-          </div>
-          <div class="col-md-4 text-left">
-            <h4>まんなかメニュー</h4>
-            <?php wp_nav_menu( array(
-                      'theme_location'=>'footer-menu-center', 
-                      'container'     =>'', 
-                      'menu_class'    =>'footer-menu-center',
-                      'items_wrap'    =>'<ul class="footer-menu footer-center">%3$s</ul>'));
-              ?>
-          </div>
-          <div class="col-md-4 text-left">
-            <h4>みぎめにゅー</h4>
-            <?php wp_nav_menu( array(
-                      'theme_location'=>'footer-menu-right', 
-                      'container'     =>'', 
-                      'menu_class'    =>'footer-menu-right',
-                      'items_wrap'    =>'<ul class="footer-menu footer-right">%3$s</ul>'));
-              ?>
-          </div> 
-        </div>
-      </div>
-    </div>
-    <p>© 2019  <a href="">とあるEngineer</a></p>
-  </footer>
-   -->
     <div class="top-footer-area top07">
       <div class="container">
         <div class="row my-5 top-item-description-white text-left">
