@@ -490,8 +490,8 @@ p.icon-file-white{
   <!--javascript-->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js" type="text/javascript" ></script>
    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js" type="text/javascript"></script>
-  <script type='text/javascript' src='./static/js/bootstrap.min.js'></script>
-  <script type='text/javascript' src='./static/js/custom.js'></script>
+  <script type='text/javascript' src='<?php echo get_template_directory_uri(); ?>/static/js/bootstrap.min.js'></script>
+  <script type='text/javascript' src='<?php echo get_template_directory_uri(); ?>/static/js/custom.js'></script>
 </body>
 </html>
 
