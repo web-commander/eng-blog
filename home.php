@@ -197,18 +197,18 @@
   <div class="card-deck mb-3 text-center">
     <div class="card mb-4 shadow-sm">
       <div class="card-header">
-        <h4 class="my-0 font-weight-normal">テーマのみプラン</h4>
+        <h4 class="my-0 font-weight-normal">スポットプラン</h4>
       </div>
       <div class="card-body">
-        <h1 class="card-title pricing-card-title">¥29800<small class="text-muted">/ 初回</small></h1>
+        <h1 class="card-title pricing-card-title">¥4980〜<small class="text-muted">/ 回</small></h1>
         <ul class="list-unstyled mt-3 mb-4">
-          <li>WPテーマのみのご購入</li>
-          <li>サーバはご自身でご用意の必要あり</li>
-          <li>バージョンアップ時は無料配布</li>
-          <li>複数サイトで利用OK</li>
-          <li>２次利用不可</li>
+          <li>単発での画面修正</li>
+          <li>HTMLからワードプレスへ移行</li>
+          <li>サーバの移行</li>
+          <li>既存サイトの機能実現相談</li>
+          <li>その他業務改善相談</li>
         </ul>
-        <button type="button" class="btn btn-lg btn-block btn-primary" onclick="location.href='https://one-ap-engineer.com/plan-theme-only'">プラン詳細へ</button>
+        <button type="button" class="btn btn-lg btn-block btn-primary" onclick="location.href='https://one-ap-engineer.com/plan-spot'">プラン詳細へ</button>
       </div>
     </div>
     <div class="card mb-4 shadow-sm">
@@ -216,7 +216,7 @@
         <h4 class="my-0 font-weight-normal">丸投げプラン</h4>
       </div>
       <div class="card-body">
-        <h1 class="card-title pricing-card-title">¥98000 <small class="text-muted">/ 初回</small></h1>
+        <h1 class="card-title pricing-card-title">¥98000 <small class="text-muted"></small></h1>
         <ul class="list-unstyled mt-3 mb-4">
           <li>ハイクオリティテンプレートを利用</li>
           <li>サーバ・ドメインの用意を代行</li>
@@ -232,7 +232,7 @@
         <h4 class="my-0 font-weight-normal">拘りプラン</h4>
       </div>
       <div class="card-body">
-        <h1 class="card-title pricing-card-title">¥298000 <small class="text-muted">/ 初回</small></h1>
+        <h1 class="card-title pricing-card-title">¥298000 <small class="text-muted"></small></h1>
         <ul class="list-unstyled mt-3 mb-4">
           <li>フルオーダーメイドでサイト制作</li>
           <li>サーバ・ドメインの用意を代行</li>
