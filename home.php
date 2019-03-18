@@ -200,13 +200,13 @@
         <h4 class="my-0 font-weight-normal">スポットプラン</h4>
       </div>
       <div class="card-body">
-        <h1 class="card-title pricing-card-title">¥4980〜<small class="text-muted">/ 回</small></h1>
+        <h1 class="card-title pricing-card-title">¥9800〜<small class="text-muted">/ 回</small></h1>
         <ul class="list-unstyled mt-3 mb-4">
           <li>単発での画面修正</li>
           <li>HTMLからワードプレスへ移行</li>
           <li>サーバの移行</li>
           <li>既存サイトの機能実現相談</li>
-          <li>その他業務改善相談</li>
+          <li>価格は規模に応じて要相談</li>
         </ul>
         <button type="button" class="btn btn-lg btn-block btn-primary" onclick="location.href='https://one-ap-engineer.com/plan-spot'">プラン詳細へ</button>
       </div>
